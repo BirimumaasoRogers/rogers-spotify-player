@@ -14,6 +14,7 @@
     height: 45%;
     border: 1px solid #2c2c2c;
     background: linear-gradient(145deg, #00325e, #1c1c1c);
+    mix-blend-mode: normal;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -21,6 +22,7 @@
     padding: 1%;
     cursor: pointer;
     margin-bottom: 2%;
+    filter: blur(0.2px);
 }
 
 .playlist-card:hover{
